@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Prediction Result</h1>
+        <p>Prediction: {{ prediction }}</p>
+        <p>Probability of Placement: {{ proba }}%</p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
+
+
